@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(16, 97, 65);
+    text-align: center;
+}
+
+.mainTitle {
+    font-family: Chalkduster, fantasy;
+    font-size: 4em;
+    margin: 0.2em;
+    color: rgb(0, 0, 0);
+}
+
+.chooseTitle {
+    font-family: Chalkduster, fantasy;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin: 1em 0 0.25em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(0, 2, 5);
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+input[type=number] {
+    width: 3em;
+    margin-right: 10px;
+}
+
+input[type=submit] {
+    margin-right: 2em;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .mainTitle {
+        font-size: 1.1rem;
+        display: inline;
+    }
+
+    .chooseTitle {
+        font-size: 1.1rem;
+        display: inline;
+    }
+
+    table {
+        margin: 10px auto;
+    }
+
+    tr {
+        height: 30px;
+    }
+
+    td {
+        width: 30px;
+    }
+}

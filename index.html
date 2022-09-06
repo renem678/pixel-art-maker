@@ -2,12 +2,34 @@
 <html>
 
 <head>
-    <title>Pixel Art Maker</title>
-
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&text=Pixel%Art%Maker">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <div id="container">
+        <div class="panel">
+            <h1 class="mainTitle">Pixel Art Maker</h1>
 
+            <h2 class="chooseTitle">Choose Grid Size</h2>
+            <form id="size">
+                <span class="label">Rows: </span>
+                <input type="number" required id="Height" name="height" min="1" max="100" value="20">
+                <span class="label">Columns: </span>
+                <input type="number" required id="Width" name="width" min="1" max="100" value="20">
+                <input type="submit">
+                <h3 class="chooseTitle">Choose Color</h3>
+                <form id="size">
+                    <input type="color" id="colorChoice">
+                </form>
+
+
+        </div>
+        <table id="canvas"></table>
+    </div>
+
+    <script async src="index.js"></script>
 </body>
 
 </html>
